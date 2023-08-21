@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="minesweeper.SignIn">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1294" height="581"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <splitpane id="ee53">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="ad3fd" binding="rightPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <background color="-14188447"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="aace2" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Copperplate Gothic Bold" size="24"/>
+                  <foreground color="-1"/>
+                  <text value=" Minesweeper ... A game you will love !"/>
+                </properties>
+              </component>
+              <component id="54eb7" class="javax.swing.JLabel" binding="photo">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="561" height="509"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13783668"/>
+                  <enabled value="true"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="11"/>
+                  <icon value="minesweeper/blue.png"/>
+                  <text value="  "/>
+                  <verticalAlignment value="0"/>
+                  <verticalTextPosition value="0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="b0d3e" binding="leftPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="2cc59" binding="panel2" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16241095"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="136eb" class="javax.swing.JLabel" binding="mod1">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="230" height="26"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-16241095"/>
+                      <font name="Copperplate Gothic Bold" size="20"/>
+                      <foreground color="-1"/>
+                      <labelFor value="c2bad"/>
+                      <text value="  Game Mode"/>
+                    </properties>
+                  </component>
+                  <component id="eb66b" class="javax.swing.JLabel" binding="size1">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="230" height="26"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font name="Copperplate Gothic Bold" size="20"/>
+                      <foreground color="-1"/>
+                      <labelFor value="c0920"/>
+                      <text value="  Game Size"/>
+                    </properties>
+                  </component>
+                  <component id="41665" class="javax.swing.JLabel" binding="enterName1">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="230" height="26"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font name="Copperplate Gothic Bold" size="20"/>
+                      <foreground color="-1"/>
+                      <text value="  Enter First Name"/>
+                    </properties>
+                  </component>
+                  <component id="7f4b8" class="javax.swing.JLabel" binding="enterName2">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="230" height="16"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font name="Copperplate Gothic Bold" size="20"/>
+                      <foreground color="-1"/>
+                      <text value="  Enter Second Name"/>
+                    </properties>
+                  </component>
+                  <component id="40f59" class="javax.swing.JButton" binding="savedGameButton" default-binding="true">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="1" use-parent-layout="false">
+                        <preferred-size width="230" height="30"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-13783668"/>
+                      <font name="Copperplate Gothic Bold" size="22"/>
+                      <foreground color="-1"/>
+                      <text value="Saved Game"/>
+                    </properties>
+                  </component>
+                  <component id="c7c6e" class="javax.swing.JTextField" binding="firstName">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-13783668"/>
+                      <font name="Copperplate Gothic Bold" size="20"/>
+                      <text value="player 1"/>
+                    </properties>
+                  </component>
+                  <component id="b7794" class="javax.swing.JTextField" binding="secondName">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-13783668"/>
+                      <font name="Copperplate Gothic Bold" size="20"/>
+                      <text value="player 2"/>
+                    </properties>
+                  </component>
+                  <component id="ad52" class="javax.swing.JButton" binding="newGameButton" default-binding="true">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="276" height="30"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-16241095"/>
+                      <font name="Copperplate Gothic Bold" size="22"/>
+                      <foreground color="-1"/>
+                      <hideActionText value="false"/>
+                      <text value="New Game"/>
+                    </properties>
+                  </component>
+                  <component id="c0920" class="javax.swing.JComboBox" binding="gameSizeComboBox" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="276" height="36"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-13783668"/>
+                      <font name="Copperplate Gothic Bold" size="20"/>
+                      <model>
+                        <item value="9×9"/>
+                        <item value="16×16"/>
+                        <item value="16×30"/>
+                        <item value="modify"/>
+                      </model>
+                      <toolTipText value=""/>
+                    </properties>
+                  </component>
+                  <component id="c2bad" class="javax.swing.JComboBox" binding="gameModeComboBox" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="276" height="36"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-13783668"/>
+                      <font name="Copperplate Gothic Bold" size="20"/>
+                      <model>
+                        <item value="One Player"/>
+                        <item value="Two Players"/>
+                        <item value="Player Vs Computer"/>
+                      </model>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </splitpane>
+    </children>
+  </grid>
+</form>
